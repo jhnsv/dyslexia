@@ -1,0 +1,75 @@
+
+@import "bower_components/normalize-scss/_normalize.scss";
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  container : 1024px
+);
+
+$yellow     : #ffda2e;
+$gray       : #ececec;
+$main       : #cf9b29;
+$red        : #ed1a3a;
+$blue       : #005696;
+
+@mixin rounded($radius: 0.5em) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+// Placeholder selectors
+%vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+html, body {
+  height: 100%; 
+}
+
+body {
+  background: white; 
+  font-family: 'Share Tech Mono', monospace;
+  background: #EFEDE2;
+}
+
+.nav {
+  ul {
+    li {
+      display: inline;
+      text-transform: uppercase; 
+    } 
+  } 
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  @extend %vertical-align;
+  position: absolute;  
+}
+
+h1 {
+
+  font-size: 42px;
+
+}
+
+@include susy-breakpoint(468px) {
+
+}
+
+@include susy-breakpoint(768px) {
+  .wrap-form, .wrap-why {
+    .inner {
+      padding: 0 100px; 
+    } 
+  }
+}
