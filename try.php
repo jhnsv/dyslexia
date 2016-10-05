@@ -103,5 +103,16 @@
     </form>
   </div>
 -->
+
+<div class="footer">
+  <h2>Popular links :</h2>
+  <ul>
+    <li><a href="">nytimes.com</a> / </li>
+    <li><a href="">nytimes.com</a> / </li>
+    <li><a href="">nytimes.com</a> / </li>
+    <li><a href="">nytimes.com</a> / </li>
+    
+  </ul>
+</div>
 </body>
 </html>

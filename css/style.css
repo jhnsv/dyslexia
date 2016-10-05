@@ -470,10 +470,15 @@ html, body {
 body {
   background: white;
   font-family: 'Share Tech Mono', monospace;
-  background: #EFEDE2; }
+  background: #EFEDE2;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 body.try {
-  background: #4abdac; }
+  background: #46bbaa; }
+
+body.what {
+  background: #f74717; }
 
 .nav {
   float: left; }
@@ -545,26 +550,47 @@ p {
   /*  @extend %vertical-align;*/
   padding-top: 100px; }
 
-button, input[type="submit"] {
+button, input[type="submit"], a.btn {
   background: none;
   border: 1px solid black;
   text-transform: uppercase;
   font-size: 22px;
-  padding: 20px; }
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: black; }
 
 body.try button, body.try input[type="submit"] {
   border: 1px solid white;
   color: white; }
 
-.form {
-  margin-top: -10px; }
-  .form h1, .form p, .form input {
-    color: white; }
+.form h1, .form p, .form input {
+  color: white; }
 
 input[type="text"] {
   padding: 20px;
-  width: 60%;
+  width: 80%;
   margin-bottom: 20px; }
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center; }
+  .footer h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center; }
+  .footer ul {
+    margin: 0;
+    padding: 0; }
+    .footer ul li {
+      display: inline;
+      color: white; }
+      .footer ul li a {
+        color: white;
+        font-size: 12px; }
 
 @media (min-width: 768px) {
   .nav ul {
@@ -573,5 +599,11 @@ input[type="text"] {
       padding: 0 10px;
       font-size: 16px; }
 
+  input[type="text"] {
+    width: 60%; }
+
   .soc ul {
-    padding: 10px; } }
+    padding: 10px; }
+
+  .col-1 {
+    widht: 50%; } }

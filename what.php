@@ -65,7 +65,7 @@
   <!--[if lt IE 10]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!-- <<< Encoding & CSS & JS -->
 </head>
-<body>
+<body class="try what">
 <div class="header">
   <div class="nav">
     <ul>
@@ -85,19 +85,21 @@
   </div>
   
   <div class="main">
-    <h1 class="plask">tr<span>y</span></h1> <h1> dyslexia</h1>
-    <p class="ani">Having dyslexia dosen’t mean you're stupid. <br>It just means that reading is hard for you right now. <br>Just like some people having a hard time learning how to bowl. <br>But just like bowling, your reading ability can be improved.</p>
-    <a href="" class="btn" id="play">Try Dyslexia</a>
+    <h1>what can I do?</h1>
+    <p class="ani">Everything</p>
+    <div class="col-1">
+    <p>
+    Mea nonumy audiam gubergren ad, scaevola singulis duo et. Ad quod nostrud ius. Id vim elit tibique facilisis, prompta laoreet imperdiet ne mei. Mundi munere semper eam ex, viderer fabellas adversarium has cu. Nibh diceret theophrastus his ex, sit volumus scaevola mnesarchum ad. Enim erroribus in vim, te vel tollit deleniti.
+    </p>
+    </div>
+    
+    <div class="col-2">
+    <p>
+    Mea nonumy audiam gubergren ad, scaevola singulis duo et. Ad quod nostrud ius. Id vim elit tibique facilisis, prompta laoreet imperdiet ne mei. Mundi munere semper eam ex, viderer fabellas adversarium has cu. Nibh diceret theophrastus his ex, sit volumus scaevola mnesarchum ad. Enim erroribus in vim, te vel tollit deleniti.
+    </p>
+    </div>
+   
   </div>
-  <!--
-  <div class="form">
-    <h1 class="ani">Try Dyslexia here</h1>
-    <p class="ani">Give us an URL and we will show you what it's like to read with dyslexia.</p>
-    <form>
-      <input class="ani" type="text" /><br>
-      <input class="ani" type="submit" value="Try Dyslexia" />
-    </form>
-  </div>
--->
+
 </body>
 </html>
