@@ -66,15 +66,34 @@
   <!-- <<< Encoding & CSS & JS -->
 </head>
 <body class="try">
+<div class="header">
   <div class="nav">
     <ul>
-      <li><a href="/" class="home">Home<a/></li>
-      <li>Try dyslexia</li>
-      <li>What can I do?</li>
+      <li><a href="/" class="active">Home<a/></li>
+      <li><a href="/">Try dyslexia</a></li>
+      <li><a href="/">What can I do?</a></li>
     </ul>
   </div>
-
-
+  
+  <div class="soc">
+    <ul>
+      <li><a href=""><img src="img/icon-fb.png" /></a></li>
+      <li><a href=""><img src="img/icon-tw.png" /></a></li>
+    </ul>
+  </div>
+  
+  </div>
+  
+  <div class="main">
+    <h1 class="plask">tr<span>y</span></h1> <h1> dyslexia</h1>
+    <p class="ani">Give us an URL and we will show you what it's like to read with dyslexia.</p>
+<form>
+      <input class="ani" type="text" /><br>
+      <input class="ani" type="submit" value="Try" />
+    </form>
+   
+  </div>
+  <!--
   <div class="form">
     <h1 class="ani">Try Dyslexia here</h1>
     <p class="ani">Give us an URL and we will show you what it's like to read with dyslexia.</p>
@@ -83,6 +102,6 @@
       <input class="ani" type="submit" value="Try Dyslexia" />
     </form>
   </div>
-
+-->
 </body>
 </html>

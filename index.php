@@ -66,18 +66,28 @@
   <!-- <<< Encoding & CSS & JS -->
 </head>
 <body>
+<div class="header">
   <div class="nav">
     <ul>
-      <li><a href="/" class="home">Home<a/></li>
-      <li>Try dyslexia</li>
-      <li>What can I do?</li>
+      <li><a href="/" class="active">Home<a/></li>
+      <li><a href="/">Try dyslexia</a></li>
+      <li><a href="/">What can I do?</a></li>
     </ul>
   </div>
   
+  <div class="soc">
+    <ul>
+      <li><a href=""><img src="img/icon-fb.png" /></a></li>
+      <li><a href=""><img src="img/icon-tw.png" /></a></li>
+    </ul>
+  </div>
+  
+  </div>
+  
   <div class="main">
-    <h1 class="ani"><span>tr</span>y<span class="short">&nbsp</span> <br> dyslexia</h1>
-    <p class="ani">Having dyslexia dosen’t mean you're stupid. It just means that reading is hard for you right now. Just like some people having a hard time learning how to bowl. But just like bowling, your reading ability can be improved.</p>
-    <button class="ani" id="play">Try</button>
+    <h1 class="plask">tr<span>y</span></h1> <h1> dyslexia</h1>
+    <p class="ani">Having dyslexia dosen’t mean you're stupid. <br>It just means that reading is hard for you right now. <br>Just like some people having a hard time learning how to bowl. <br>But just like bowling, your reading ability can be improved.</p>
+    <button class="ani" id="play">Try Dyslexia</button>
   </div>
   <!--
   <div class="form">

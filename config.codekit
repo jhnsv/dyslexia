@@ -1038,14 +1038,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/index.old.php": {
-		"fileType": 8192,
+	"\/img\/icon-fb.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.old.php",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 10947,
+		"inputAbbreviatedPath": "\/img\/icon-fb.png",
+		"outputAbbreviatedPath": "\/img\/icon-fb.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-tw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11759,
+		"inputAbbreviatedPath": "\/img\/icon-tw.png",
+		"outputAbbreviatedPath": "\/img\/icon-tw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,

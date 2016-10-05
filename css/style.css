@@ -464,13 +464,6 @@ td,
 th {
   padding: 0; }
 
-.main, .form {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
-
 html, body {
   height: 100%; }
 
@@ -482,27 +475,75 @@ body {
 body.try {
   background: #4abdac; }
 
-.nav ul li {
-  display: inline;
-  text-transform: uppercase; }
+.nav {
+  float: left; }
+  .nav ul {
+    margin: 0;
+    padding: 10px; }
+    .nav ul li {
+      display: inline;
+      text-transform: uppercase;
+      padding: 0 5px;
+      font-size: 12px; }
+      .nav ul li a {
+        color: black;
+        text-decoration: none; }
+        .nav ul li a.active {
+          border-bottom: 1px solid black; }
+
+body.try .nav ul li a {
+  color: white; }
+  body.try .nav ul li a.active {
+    border-bottom: 1px solid white; }
+
+body.try h1, body.try p {
+  color: white; }
+body.try h1.plask {
+  border-bottom: 3px solid white; }
+
+.soc {
+  float: right; }
+  .soc ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none; }
+    .soc ul li {
+      float: right; }
+      .soc ul li a img {
+        width: 40px; }
 
 h1 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 48px; }
+  margin: 0;
+  font-weight: normal;
+  font-size: 72px; }
+
+h1.plask {
+  display: inline-block;
+  line-height: 0.8em;
+  border-bottom: 3px solid black; }
+
+h1.plask span {
+  text-shadow: 2px 2px #EFEDE2, -10px 10px #EFEDE2; }
+
+body.try h1.plask span {
+  text-shadow: 2px 2px #4abdac, -10px 10px #4abdac; }
 
 p {
   line-height: 140%;
-  width: 60%;
+  padding: 0 20px;
+  font-size: 18px;
   margin: 0 auto;
   margin-bottom: 20px;
   text-align: center; }
 
 .main, .form {
+  clear: both;
+  overflow: hidden;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  position: absolute; }
+  /*  @extend %vertical-align;*/
+  padding-top: 100px; }
 
 button, input[type="submit"] {
   background: none;
@@ -512,7 +553,8 @@ button, input[type="submit"] {
   padding: 20px; }
 
 body.try button, body.try input[type="submit"] {
-  border: 1px solid white; }
+  border: 1px solid white;
+  color: white; }
 
 .form {
   margin-top: -10px; }
@@ -525,5 +567,11 @@ input[type="text"] {
   margin-bottom: 20px; }
 
 @media (min-width: 768px) {
-  .wrap-form .inner, .wrap-why .inner {
-    padding: 0 100px; } }
+  .nav ul {
+    padding: 20px; }
+    .nav ul li {
+      padding: 0 10px;
+      font-size: 16px; }
+
+  .soc ul {
+    padding: 10px; } }

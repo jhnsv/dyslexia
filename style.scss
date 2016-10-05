@@ -45,35 +45,102 @@ body.try {
 }
 
 .nav {
+  float:left;
   ul {
+    margin: 0;
+    padding: 10px;
     li {
       display: inline;
       text-transform: uppercase; 
+      padding: 0 5px;
+        font-size: 12px;
+      a {
+        color: black;
+        text-decoration: none;
+        &.active {
+          border-bottom: 1px solid black; 
+        } 
+      }
     } 
   } 
 }
 
+body.try .nav ul li a {
+  color: white;
+  &.active {
+          border-bottom: 1px solid white; 
+        } 
+} 
+
+body.try {
+  h1, p {
+    color: white; 
+  } 
+  h1.plask {
+        border-bottom: 3px solid white;
+  }
+}
+
+.soc {
+  float: right;
+  ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+    li {
+          float: right; 
+      a { 
+        img {
+          width: 40px;
+        }
+      }
+    }  
+  }
+  
+}
+  
+  
 
 h1 {
-  margin-top: 0; 
-  margin-bottom: 20px;
-  font-size: 48px;
+  margin: 0; 
+    font-weight: normal;
+   font-size: 72px;
+}
+h1.plask
+{
+  display: inline-block;
+    line-height: 0.8em;
+    border-bottom: 3px solid black;
+
+}
+
+h1.plask span {
+     text-shadow: 2px 2px #EFEDE2, -10px 10px #EFEDE2; 
+}
+
+body.try h1.plask span {
+     text-shadow: 2px 2px #4abdac, -10px 10px #4abdac; 
+   
 }
 
 p {
   line-height: 140%;
-  width: 60%;
+  padding: 0 20px;
+  font-size: 18px;
   margin: 0 auto;
   margin-bottom: 20px;
   text-align: center; 
 }
 
 .main, .form {
+  clear: both;
+  overflow: hidden;
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  @extend %vertical-align;
-  position: absolute;  
+/*  @extend %vertical-align;*/
+padding-top: 100px;
+
 }
 
 button, input[type="submit"] {
@@ -88,6 +155,7 @@ button, input[type="submit"] {
 body.try {
   button, input[type="submit"] {
     border: 1px solid white; 
+    color: white;
   } 
 }
 
@@ -109,9 +177,22 @@ input[type="text"] {
 }
 
 @include susy-breakpoint(768px) {
-  .wrap-form, .wrap-why {
-    .inner {
-      padding: 0 100px; 
-    } 
+  .nav {
+    ul {
+    padding: 20px;
+      li {
+        padding: 0 10px;
+        font-size: 16px;
+      }
+    }
   }
+  
+  
+  .soc {
+    ul {
+    padding: 10px;
+    }
+  }
+  
+  
 }
