@@ -65,7 +65,7 @@
   <!--[if lt IE 10]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!-- <<< Encoding & CSS & JS -->
 </head>
-<body>
+<body class="try">
   <div class="nav">
     <ul>
       <li><a href="/" class="home">Home<a/></li>
@@ -73,13 +73,8 @@
       <li>What can I do?</li>
     </ul>
   </div>
-  
-  <div class="main">
-    <h1 class="ani"><span>tr</span>y<span class="short">&nbsp</span> <br> dyslexia</h1>
-    <p class="ani">Having dyslexia dosen’t mean you're stupid. It just means that reading is hard for you right now. Just like some people having a hard time learning how to bowl. But just like bowling, your reading ability can be improved.</p>
-    <button class="ani" id="play">Try</button>
-  </div>
-  <!--
+
+
   <div class="form">
     <h1 class="ani">Try Dyslexia here</h1>
     <p class="ani">Give us an URL and we will show you what it's like to read with dyslexia.</p>
@@ -88,6 +83,6 @@
       <input class="ani" type="submit" value="Try Dyslexia" />
     </form>
   </div>
--->
+
 </body>
 </html>
