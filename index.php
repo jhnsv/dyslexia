@@ -69,7 +69,7 @@
 <div class="header">
   <div class="nav">
     <ul>
-      <li><a href="/" class="active">Home<a/></li>
+      <li><a href="/" class="active joln">Home<a/></li>
       <li><a href="/">Try dyslexia</a></li>
       <li><a href="/">What can I do?</a></li>
     </ul>
